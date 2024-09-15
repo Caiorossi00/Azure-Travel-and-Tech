@@ -1,0 +1,17 @@
+.page-transition {
+  position: relative;
+  background-color: #2D55B1(0, 0, 0, 0.8);
+}
+
+.loading-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #2d55b1;
+}
+
+.loading-img {
+  max-width: 500px;
+  object-fit: cover;
+}

@@ -1,13 +1,65 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  Link,
+  useLocation,
+} from "react-router-dom";
 import HomePage from "./components/HomePage/HomePage";
 import LocationPage from "./components/LocationPage/LocationPage";
 import locationsData from "./data/locations.json";
 import Navbar from "./components/Navbar/Navbar";
-import "./App.css"; // Se necessário para estilos globais
+import { AnimatePresence, color, motion } from "framer-motion";
+import "./App.css";
 
-const App = () => {
+const pageVariants = {
+  initial: { opacity: 0, x: "0" },
+  in: { opacity: 1, x: 0 },
+  out: { opacity: 0, x: "100vw" },
+};
+
+const pageTransition = {
+  duration: 0.9,
+};
+
+const PageTransition = ({ children }) => {
+  return (
+    <motion.div
+      initial="initial"
+      animate="in"
+      exit="out"
+      variants={pageVariants}
+      transition={pageTransition}
+      className="page-transition"
+    >
+      {children}
+    </motion.div>
+  );
+};
+
+const LoadingScreen = () => {
+  return (
+    <motion.div
+      className="loading-screen"
+      initial="initial"
+      animate="in"
+      exit="out"
+      variants={pageVariants}
+      transition={{ duration: 0 }}
+    >
+      <img
+        src="https://i.pinimg.com/originals/29/38/a3/2938a3b0772876c56082d65731c23692.gif"
+        className="loading-img"
+      ></img>
+    </motion.div>
+  );
+};
+
+const AppContent = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [loading, setLoading] = useState(true);
+  const location = useLocation();
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -17,8 +69,21 @@ const App = () => {
     setMenuOpen(false);
   };
 
+  React.useEffect(() => {
+    const handleRouteChange = async () => {
+      setLoading(true);
+      await new Promise((resolve) => setTimeout(resolve, 1000));
+      setLoading(false);
+    };
+    handleRouteChange();
+  }, [location.pathname]);
+
+  if (loading) {
+    return <LoadingScreen />;
+  }
+
   return (
-    <Router>
+    <>
       <Navbar toggleMenu={toggleMenu} />
       <div className={`slide-menu ${menuOpen ? "open" : ""}`}>
         <button className="close-btn" onClick={closeMenu}>
@@ -40,13 +105,33 @@ const App = () => {
           ))}
         </ul>
       </div>
-      <Routes>
-        <Route path="/" element={<HomePage locations={locationsData} />} />
-        <Route
-          path="/location/:id"
-          element={<LocationPage locations={locationsData} />}
-        />
-      </Routes>
+      <AnimatePresence mode="wait" onExitComplete={() => window.scrollTo(0, 0)}>
+        <Routes location={location} key={location.pathname}>
+          <Route
+            path="/"
+            element={
+              <PageTransition>
+                <HomePage locations={locationsData} />
+              </PageTransition>
+            }
+          />
+          <Route
+            path="/location/:id"
+            element={
+              <PageTransition>
+                <LocationPage locations={locationsData} />
+              </PageTransition>
+            }
+          />
+        </Routes>
+      </AnimatePresence>
+    </>
+  );
+};
+const App = () => {
+  return (
+    <Router>
+      <AppContent />
     </Router>
   );
 };
