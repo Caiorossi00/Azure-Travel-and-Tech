@@ -1,0 +1,25 @@
+.container-location {
+  padding: 2em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fbab7e;
+  background-image: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%);
+  min-height: 100vh;
+  color: rgb(79, 79, 79);
+}
+
+.container-location h1 {
+  margin: 0;
+  margin-top: 4vh;
+}
+
+.container-location img {
+  width: 30vh;
+  height: 30vh;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 2em;
+  border: 2px solid rgb(255, 255, 255);
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "coliseu",
+    "name": "Coliseu",
+    "description": "O Coliseu é um anfiteatro histórico localizado no coração de Roma.",
+    "image": "https://italianismo.com.br/wp-content/uploads/2024/04/Coliseu-1013x576.webp"
+  },
+  {
+    "id": "torre-eiffel",
+    "name": "Torre Eiffel",
+    "description": "A Torre Eiffel é um marco famoso localizado em Paris, França.",
+    "image": "https://cdn-imgix.headout.com/media/images/c90f7eb7a5825e6f5e57a5a62d05399c-25058-BestofParis-EiffelTower-Cruise-Louvre-002.jpg"
+  },
+  {
+    "id": "muralha-da-china",
+    "name": "Grande Muralha da China",
+    "description": "A Grande Muralha da China é uma das maiores maravilhas do mundo.",
+    "image": "https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/nationalgeographic2710344.jpg?w=760&h=509"
+  }
+]

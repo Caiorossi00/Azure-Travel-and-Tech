@@ -1,0 +1,9 @@
+nav {
+  background-color: rgb(255, 255, 255);
+  padding: 8%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
