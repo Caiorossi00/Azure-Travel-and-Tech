@@ -1,9 +1,49 @@
-nav {
-  background-color: rgb(255, 255, 255);
-  padding: 8%;
-}
-
 .navbar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 20px;
+  position: absolute;
+  width: 90%;
+  align-self: center;
+}
+
+.menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.slide-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.3);
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+  overflow-y: auto;
+  padding: 20px;
+}
+
+.slide-menu.open {
+  transform: translateX(0);
+  position: absolute;
+  z-index: 999;
+}
+
+.slide-menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.slide-menu li {
+  margin: 10px 0;
+}
+
+.slide-menu a {
+  text-decoration: none;
+  color: #333;
 }

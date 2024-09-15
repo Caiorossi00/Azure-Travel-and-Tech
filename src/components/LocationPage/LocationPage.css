@@ -6,7 +6,7 @@
   align-items: center;
   background-color: #fbab7e;
   background-image: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%);
-  min-height: 80vh;
+  min-height: 100vh;
   color: rgb(255, 255, 255);
 }
 
@@ -20,6 +20,13 @@
   height: 30vh;
   border-radius: 50%;
   object-fit: cover;
-  margin-top: 2em;
   border: 2px solid rgb(255, 255, 255);
+  margin-top: 15vh;
+  transition: transform 400ms ease-in-out, margin-bottom 400ms ease-in-out;
+}
+
+.container-location img:hover {
+  transform: scale(1.2);
+  transition: ease-in-out 400ms;
+  margin-bottom: 1.5em;
 }
