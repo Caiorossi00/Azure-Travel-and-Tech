@@ -19,6 +19,7 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   color: white;
   max-width: 800px;
+  min-height: 80vh;
   margin: 0 auto;
   z-index: 1;
   margin-top: 10vh;
@@ -31,8 +32,8 @@
 }
 
 .container-location img {
-  width: 30vh;
-  height: 30vh;
+  width: 25vh;
+  height: 25vh;
   border-radius: 50%;
   object-fit: cover;
   border: 2px solid rgb(255, 255, 255);
