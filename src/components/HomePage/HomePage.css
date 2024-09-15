@@ -1,4 +1,3 @@
-/* HomePage.css */
 .slide-menu {
   position: fixed;
   top: 0;
@@ -11,7 +10,7 @@
   transition: transform 0.3s ease;
   overflow-y: auto;
   padding: 20px;
-  box-sizing: border-box; /* Adiciona a largura da borda ao cálculo da largura total */
+  box-sizing: border-box;
 }
 
 .slide-menu.open {

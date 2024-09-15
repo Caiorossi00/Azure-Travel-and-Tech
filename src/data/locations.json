@@ -3,18 +3,21 @@
     "id": "coliseu",
     "name": "Coliseu",
     "description": "O Coliseu é um anfiteatro histórico localizado no coração de Roma.",
-    "image": "https://italianismo.com.br/wp-content/uploads/2024/04/Coliseu-1013x576.webp"
+    "image": "https://italianismo.com.br/wp-content/uploads/2024/04/Coliseu-1013x576.webp",
+    "background": "https://images.unsplash.com/photo-1460722665083-c2599113f7e0?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     "id": "torre-eiffel",
     "name": "Torre Eiffel",
     "description": "A Torre Eiffel é um marco famoso localizado em Paris, França.",
-    "image": "https://cdn-imgix.headout.com/media/images/c90f7eb7a5825e6f5e57a5a62d05399c-25058-BestofParis-EiffelTower-Cruise-Louvre-002.jpg"
+    "image": "https://cdn-imgix.headout.com/media/images/c90f7eb7a5825e6f5e57a5a62d05399c-25058-BestofParis-EiffelTower-Cruise-Louvre-002.jpg",
+    "background": "https://images.unsplash.com/photo-1473398643778-d68e48a374c1?q=80&w=2542&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     "id": "muralha-da-china",
     "name": "Grande Muralha da China",
     "description": "A Grande Muralha da China é uma das maiores maravilhas do mundo.",
-    "image": "https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/nationalgeographic2710344.jpg?w=760&h=509"
+    "image": "https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/nationalgeographic2710344.jpg?w=760&h=509",
+    "background": "https://images.unsplash.com/photo-1523572195445-beac62603522?q=80&w=2468&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   }
 ]

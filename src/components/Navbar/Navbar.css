@@ -3,10 +3,11 @@
   justify-content: space-between;
   align-items: center;
   color: white;
-  padding: 20px;
+  padding: 40px;
   position: absolute;
-  width: 90%;
+  width: 80%;
   align-self: center;
+  z-index: 777;
 }
 
 .menu-icon {

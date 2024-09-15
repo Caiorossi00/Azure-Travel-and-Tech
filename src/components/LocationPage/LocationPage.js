@@ -11,10 +11,15 @@ const LocationPage = ({ locations }) => {
   }
 
   return (
-    <div className="container-location">
-      <img src={location.image} alt={location.name} />
-      <h1>{location.name}</h1>
-      <p>{location.description}</p>
+    <div
+      className="container-location"
+      style={{ backgroundImage: `url(${location.background})` }}
+    >
+      <div className="content">
+        <img src={location.image} alt={location.name} />
+        <h1>{location.name}</h1>
+        <p>{location.description}</p>
+      </div>
     </div>
   );
 };
