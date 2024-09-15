@@ -1,5 +1,12 @@
 [
   {
+    "id": "big-ben",
+    "name": "Big Ben",
+    "description": "O Big Ben é o famoso sino do Palácio de Westminster em Londres, Reino Unido, e é um dos marcos mais icônicos da cidade.",
+    "image": "https://images.unsplash.com/photo-1454793147212-9e7e57e89a4f?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "background": "https://images.unsplash.com/photo-1707402729731-5e0db6c7d5cd?q=80&w=3987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
     "id": "coliseu",
     "name": "Coliseu",
     "description": "O Coliseu é um anfiteatro histórico localizado no coração de Roma.",
@@ -7,11 +14,11 @@
     "background": "https://images.unsplash.com/photo-1460722665083-c2599113f7e0?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
-    "id": "torre-eiffel",
-    "name": "Torre Eiffel",
-    "description": "A Torre Eiffel é um marco famoso localizado em Paris, França.",
-    "image": "https://cdn-imgix.headout.com/media/images/c90f7eb7a5825e6f5e57a5a62d05399c-25058-BestofParis-EiffelTower-Cruise-Louvre-002.jpg",
-    "background": "https://images.unsplash.com/photo-1473398643778-d68e48a374c1?q=80&w=2542&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    "id": "cristo-redentor",
+    "name": "Cristo Redentor",
+    "description": "O Cristo Redentor é uma estátua colossal de Jesus Cristo localizada no Rio de Janeiro, Brasil, e um ícone da cidade.",
+    "image": "https://images.unsplash.com/photo-1715528892617-fab2cd0ce0e7?q=80&w=2249&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "background": "https://images.unsplash.com/photo-1655642272518-05aaf7b8726e?q=80&w=4033&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     "id": "muralha-da-china",
@@ -19,5 +26,33 @@
     "description": "A Grande Muralha da China é uma das maiores maravilhas do mundo.",
     "image": "https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/nationalgeographic2710344.jpg?w=760&h=509",
     "background": "https://images.unsplash.com/photo-1523572195445-beac62603522?q=80&w=2468&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": "machu-picchu",
+    "name": "Machu Picchu",
+    "description": "Machu Picchu é uma antiga cidade inca localizada nos Andes, no Peru, e é um dos destinos turísticos mais famosos da América do Sul.",
+    "image": "https://images.unsplash.com/photo-1534615098829-958121bcc188?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "background": "https://images.unsplash.com/photo-1623419376227-927a9dcbe9aa?q=80&w=2979&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": "pyramides-do-egito",
+    "name": "Pirâmides do Egito",
+    "description": "As pirâmides do Egito são estruturas monumentais antigas localizadas perto do Cairo e são uma das Sete Maravilhas do Mundo Antigo.",
+    "image": "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Ds",
+    "background": "https://images.unsplash.com/photo-1597066910915-5b6ecd1f6998?q=80&w=3979&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": "taj-mahal",
+    "name": "Taj Mahal",
+    "description": "O Taj Mahal é um mausoléu de mármore branco localizado em Agra, Índia, e é um exemplo notável de arquitetura Mughal.",
+    "image": "https://images.unsplash.com/photo-1526711657229-e7e080ed7aa1?q=80&w=3820&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dg.jpg",
+    "background": "https://images.unsplash.com/photo-1720537842288-332c22757632?q=80&w=3024&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D.png"
+  },
+  {
+    "id": "torre-eiffel",
+    "name": "Torre Eiffel",
+    "description": "A Torre Eiffel é um marco famoso localizado em Paris, França.",
+    "image": "https://cdn-imgix.headout.com/media/images/c90f7eb7a5825e6f5e57a5a62d05399c-25058-BestofParis-EiffelTower-Cruise-Louvre-002.jpg",
+    "background": "https://images.unsplash.com/photo-1473398643778-d68e48a374c1?q=80&w=2542&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   }
 ]

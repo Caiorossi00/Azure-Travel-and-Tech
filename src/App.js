@@ -93,7 +93,7 @@ const AppContent = () => {
         <ul>
           <li>
             <Link to="/" onClick={closeMenu}>
-              Home
+              Início
             </Link>
           </li>
           {locationsData.map((location) => (
