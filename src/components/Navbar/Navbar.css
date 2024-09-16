@@ -29,6 +29,11 @@
   border: 1px solid rgba(255, 255, 255, 0.4);
 }
 
+.logo {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
 .slide-menu {
   position: fixed;
   top: 0;
