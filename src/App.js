@@ -10,7 +10,7 @@ import HomePage from "./components/HomePage/HomePage";
 import LocationPage from "./components/LocationPage/LocationPage";
 import locationsData from "./data/locations.json";
 import Navbar from "./components/Navbar/Navbar";
-import { AnimatePresence, color, motion } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import "./App.css";
 
 const pageVariants = {
@@ -51,6 +51,7 @@ const LoadingScreen = () => {
       <img
         src="https://i.pinimg.com/originals/29/38/a3/2938a3b0772876c56082d65731c23692.gif"
         className="loading-img"
+        alt="Loading transition"
       />
     </motion.div>
   );
