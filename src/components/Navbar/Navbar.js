@@ -1,6 +1,5 @@
 import React from "react";
 import "./Navbar.css";
-import { color } from "framer-motion";
 
 const Navbar = ({ toggleMenu }) => {
   return (
