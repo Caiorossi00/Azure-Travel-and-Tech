@@ -51,7 +51,7 @@ const LoadingScreen = () => {
       <img
         src="https://i.pinimg.com/originals/29/38/a3/2938a3b0772876c56082d65731c23692.gif"
         className="loading-img"
-      ></img>
+      />
     </motion.div>
   );
 };
