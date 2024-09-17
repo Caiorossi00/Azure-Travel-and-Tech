@@ -10,6 +10,11 @@
   z-index: 777;
 }
 
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
 .menu-icon,
 .logo {
   font-size: 15px;
